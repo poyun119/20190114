@@ -1,0 +1,67 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+}
+
+/*border: solid 2px #777 */
+body {
+  height: 100px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+nav.navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+header.jumbotron {
+  margin-bottom: 0px;
+  text-align: center;
+  background-image: url(https://i.ytimg.com/vi/HH5yWPYY2bU/maxresdefault.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: #1b120f;
+  padding: 100px 1000px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #1b120f;
+}
+header.jumbotron h4 {
+  color: #1b120f;
+}
+
+section {
+  padding: 50px 0px;
+  text-align: center;
+}
+
+section#section_ask {
+  background-color: #e6dedd;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://i.kfs.io/article5/global/21,6114,2v1/original.jpg);
+  height: 350px;
+  background-size: cover;
+  mix-blend-mode: multiply;
+}
+section#section_ask h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#secion_about img {
+  width: 150%;
+}
+section#secion_about .img_wrap {
+  height: 150px;
+  overflow: hidden;
+}
+
+section#section_video {
+  background-color: #e6dedd;
+}
